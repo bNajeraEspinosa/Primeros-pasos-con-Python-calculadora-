@@ -1,22 +1,7 @@
-#calculadora básica
+word = "Las flores azules";
 
+cortar_oracion = word[3:10];
 
-def suma(a,b):
-  resultado = a + b;
-  print("Suma: ", resultado);
-suma(8,4)
-
-def res(a,b):
-  resultado = a - b;
-  print("Resta: ", resultado);
-res(8,4)
-
-def mult(a,b):
-  resultado = a + b;
-  print("Multiplicación: ", resultado);
-mult(8,4)
-
-def div(a,b):
-  resultado = a + b;
-  print("División: ", resultado);
-div(8,4)
+print("¡Que bellas son las" + cortar_oracion + " de colores!");
+print("*=*=*=*=*=*=*=*=*=*=*");
+print("palabra que se recorto:"+cortar_oracion);
